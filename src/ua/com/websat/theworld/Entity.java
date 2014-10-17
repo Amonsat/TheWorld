@@ -28,7 +28,7 @@ public class Entity {
     @Override
     public String toString() {
         return this.getClass()
-                + "[square = " + this.coordinates.getSquare()
+                + "[square = " + this.coordinates.getSquare().getId()
                 + ", x = " + this.coordinates.getX()
                 + ", y = " + this.coordinates.getY() + "]";
     }
